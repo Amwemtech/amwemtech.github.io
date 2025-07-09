@@ -5,103 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AmwemTech Solution</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background: #006400; color: white; text-align: center; padding: 1em 0; }
-    section { padding: 40px; background-color: #f9f9f9; }
-    h2 { color: #006400; }
-    .button-download {
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header { background: #004d40; color: white; padding: 20px; text-align: center; }
+    header img { height: 100px; }
+    nav { background: #e0f2f1; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #004d40; font-weight: bold; }
+    section { padding: 20px; max-width: 900px; margin: auto; background: white; margin-top: 10px; border-radius: 6px; }
+    footer { background: #004d40; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    a.whatsapp-button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: gold;
-      color: #000;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
+      background: #25D366;
       color: white;
       padding: 10px 20px;
-      border-radius: 50px;
+      margin-top: 10px;
       text-decoration: none;
-      font-weight: bold;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    form button {
-      background-color: gold;
-      color: black;
-      padding: 10px 20px;
-      border: none;
-      font-weight: bold;
-      border-radius: 4px;
-    }
-    img.logo {
-      height: 100px;
-      margin-top: 20px;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Header with logo and welcome message -->
-  <header>
-    <img src="amwemtech_logo.png" alt="AmwemTech Logo" class="logo" />
-    <h1>Welcome to AmwemTech Solutions</h1>
-    <p>Your partner in affordable tech and digital empowerment</p>
-  </header>
+<header>
+  <img src="amwemtech_logo.png" alt="AmwemTech Logo" />
+  <h1>Welcome to AmwemTech Solution</h1>
+  <p>Affordable & Reliable Cyber Café Services in Kitengela</p>
+</header>
 
-  <!-- Company Profile Section -->
-  <section id="company-profile">
-    <h2>Company Profile</h2>
-    <p>
-      AmwemTech is a tech-driven solutions provider focused on empowering entrepreneurs, small businesses, and startups through innovative digital tools.
-      We specialize in website development, business proposal writing, digital training, and automation services that drive growth and efficiency.
-    </p>
-    <p>
-      Our mission is to make technology simple, accessible, and affordable. Whether you're launching a new business or scaling an existing one,
-      AmwemTech provides practical, user-friendly solutions tailored to your goals.
-    </p>
-    <a href="amwemtech_proposal.pdf" class="button-download" download>Download Proposal</a>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#form">Request</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <!-- Contact / Request Form -->
-  <section id="contact" style="background-color: #ffffff;">
-    <h2>Request a Service</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" name="name" required />
+<section id="about">
+  <h2>About AmwemTech Solution</h2>
+  <p><strong>AmwemTech Solution</strong> is a digital service hub founded by Abraham Mwema. We offer fast, accessible, and affordable ICT services tailored to youth, job seekers, students, and working professionals in Kitengela, Kenya.</p>
+  <p><strong>Founder & CEO:</strong> Abraham Mwema<br>
+     <strong>Phone:</strong> +254 796 177 870<br>
+     <strong>Email:</strong> amwemtechsolutions2024@gmail.com<br>
+     <strong>Website:</strong> <a href="https://amwemtech.github.io" target="_blank">amwemtech.github.io</a><br>
+     <strong>WhatsApp:</strong> <a href="https://wa.me/254796177870" target="_blank">Click to Chat</a>
+  </p>
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" required />
+  <h3>Social Media</h3>
+  <ul>
+    <li><a href="https://www.facebook.com/abraham.mwema.14" target="_blank">Facebook</a></li>
+    <li><a href="https://www.instagram.com/abraham.mwema.14" target="_blank">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@manoffaith2025" target="_blank">TikTok</a></li>
+  </ul>
 
-      <label for="message">Service Request:</label>
-      <textarea name="message" rows="5" required></textarea>
+  <h3>Business Hours</h3>
+  <ul>
+    <li>Monday–Friday: 8am – 6pm</li>
+    <li>Saturday: 9am – 5pm</li>
+    <li>Sunday: Closed</li>
+  </ul>
+</section>
 
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+<section id="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Internet browsing & public access</li>
+    <li>Document printing, scanning & photocopying</li>
+    <li>Online job applications (eCitizen, KRA, NTSA)</li>
+    <li>CV writing and document formatting</li>
+    <li>Basic computer training</li>
+    <li>Social media support & digital consultancy</li>
+  </ul>
+</section>
 
-  <!-- Footer with social media links -->
-  <footer>
-    <p>Follow us: 
-      <a href="#" style="color: gold;">Facebook</a> | 
-      <a href="#" style="color: gold;">Twitter</a> | 
-      <a href="#" style="color: gold;">Instagram</a>
-    </p>
-  </footer>
+<section id="form">
+  <h2>Request a Service</h2>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1o3hF0ObrOj2GVvV-Kg9Jgs_IYOlnYcurY9HNLpunm_TDqw/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
 
-  <!-- WhatsApp Chat Button -->
-  <a href="https://wa.me/254700000000" class="whatsapp-button">Chat with Us</a>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Name:</strong> Abraham Mwema (C.E.O)</p>
+  <p><strong>Phone:</strong> +254796177870</p>
+  <p><strong>Email:</strong> amwemtechsolutions2024@gmail.com</p>
+  <a class="whatsapp-button" href="https://wa.me/254796177870" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 AmwemTech Solution. All rights reserved.</p>
+</footer>
+
 </body>
-</html>
+    </html>
